@@ -3,11 +3,36 @@
 <head>
 <meta charset="utf-8">
 <title>BoxModel</title> 
-<style type="text/css">
-    
-</style>
+
 </head> 
 <body>
+    <h1>BoxModel</h1>
+
+    <div class="width">
+        width : 50%
+        <div class="w1">block(width 100%)</div>
+        <span class="w2">inline</span>
+        <span class="w3">inline block</span>
+    </div>
+    <br><br><br>
+    <style>
+        .width {
+            width: 50%;
+            border: 1px solid #000;
+        }
+         .w1 {
+             width: 50%;
+             border: 1px solid red;
+         }
+         .w2 {
+             border: 1px solid blue;
+         }
+         .w3 {
+             border: 1px solid pink;
+         }
+    </style>
+    <hr>
+    <h2>max-width, min-width</h2>
    <div class="box box1">
        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laborum, enim ratione cum cupiditate, impedit ipsa sapiente modi nisi commodi vero et soluta amet sint aliquam ab maxime doloremque sit?
    </div>
@@ -17,40 +42,109 @@
    <div class="box box3">
        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laborum, enim ratione cum cupiditate, impedit ipsa sapiente modi nisi commodi vero et soluta amet sint aliquam ab maxime doloremque sit?
    </div>
-   <hr>
+   <div class="box box4">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laborum, enim ratione cum cupiditate, impedit ipsa sapiente modi nisi commodi vero et soluta amet sint aliquam ab maxime doloremque sit?
+</div>
+ 
    <style>
-       .padding {
-           width: 478px;
-           border: 1px solid red;
-           padding: 50px 10px 10px 10px;
-       }  
-       
-       .padding.boxsizing {
-           box-sizing: border-box;
-       }
+      .box {
+          width: 100%;
+          background-color: aqua;
+      }
+      .box2 {
+       max-width: 400px;
+       background-color: tomato;
+      }
+      .box3 {
+       min-width: 400px;
+       background-color: peachpuff;
+      }
+      .box4 {
+        width: 100%;
+       max-width: 600px;
+       min-width: 400px;
+       background-color: plum;
+      }
+
 </style>
+<br><br><br>
+<hr>
+<h2>padding</h2>
+<a href="#" class="link-g link-naver"> 네이버 바로가기 </a>
+<a href="#" class="link-g link-cancle"> 취소 </a>
+<br><br><br>
+<h2>paddind-boxsizing</h2>
     <div class="padding">
         드디어 섭씨 40도가 넘었다. 엄마 뱃속보다 뜨거운 날씨, 감사해야 할까? 해가 뜨거울 뿐인데 오존층이 파괴되어 오존주의보가 발령되었다.
     </div>
-    
-    <div class="padding boxsizing">
+
+    <div class="boxsizing">
         드디어 섭씨 40도가 넘었다. 엄마 뱃속보다 뜨거운 날씨, 감사해야 할까? 해가 뜨거울 뿐인데 오존층이 파괴되어 오존주의보가 발령되었다.
     </div>
-    
-    <hr>
-    <style>
-        .margin {
-            background: lightblue;
-            padding: 20px;
-            margin: 50px;
-        }
-        .margin2 {
-            width: 50%;
-            margin: auto;
-        }
+<style>
+     /* w 400px; h:100px 박스가 만들어짐 */ 
+.padding {
+    width: 338px; height: 58px;
+    border:1px solid red;
+    padding: 20px 30px;
+}
+.boxsizing {
+    width: 400px; height: 100px;
+    border:1px solid blueviolet;
+    padding: 20px 30px;  
+    box-sizing: border-box
+}
+/* {  box-sizing: border-box} 기본으로 설정해야함 처음부터*/
+</style>
+
+ <style>
+     .link-g {
+    padding: 10px 30px;
+    color: #fff;
+     }
+    .link-naver {
+        padding: 10px 20px 10px 15px;
+        background-color: green;
+        border: 1px solid darkgreen;
+        color: #fff;
+    }                                
+    .link-cancle {
+        padding: 10px 20px;
+        background-color:gray;
+        border: 1px solid #000;
+        color: #fff;
+    }
+
     </style>
+    <hr>
+    <h2>margin</h2> 
+
     <p class="margin margin1">유래없이 뜨거운 날씨이다. 섭씨 38도를 웃도는 온도에서 에어콘은 이제 살기 위한 도구가 되었다.</p>
     <p class="margin margin2">달걀을 사다 놓기만 해도 병아리로 부화된다는 농담같은 이야기가 현재 대한민국의 실화다.</p>
     <p class="margin margin3">드디어 섭씨 40도가 넘었다. 엄마 뱃속보다 뜨거운 날씨, 감사해야 할까? 해가 뜨거울 뿐인데 오존층이 파괴되어 오존주의보가 발령되었다.</p>
+    <p class="margin margin4">드디어 섭씨 40도가 넘었다. 엄마 뱃속보다 뜨거운 날씨, 감사해야 할까? 해가 뜨거울 뿐인데 오존층이 파괴되어 오존주의보가 발령되었다.</p>
+<style>
+    *{
+        margin: 0;padding: 0;
+    }
+    .margin {
+        width: 60%;
+         background: aqua;
+         padding: 10px 10px;
+    }
+    .margin.margin1 { 
+      margin: 10px;
+    }
+    .margin.margin2 { 
+      margin: 50px 10px 30px 40px;
+    }
+    .margin.margin3 {
+        margin: 0 auto  50px
+    }
+    .margin.margin4 {
+        margin-bottom: 100px
+    }
+</style>
+
 </body> 
 </html>
