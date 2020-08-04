@@ -7,7 +7,16 @@
     * {
         list-style: none;
     }
-    
+    /*p: 10px 15px; bg: tomato;color:#fff*/
+	.gnb li{
+		     display: inline-block;
+	}
+   	.gnb a { display: inline-block;
+		          padding: 10px 15px;
+                  background-color: tomato;
+                 color: #fff;
+	}
+
 </style>
 </head> 
 <body>
@@ -17,5 +26,19 @@
 		<li><a href="#">Service</a></li>
 		<li><a href="#">Community</a></li>
 	</ul>
+
+	<div class="popup">
+		나는 팝업이다.
+	</div>
+	<style>
+	.popup {
+		display: block;
+		width: 100px; height: 100px;
+		background-color: #fff;
+		border: 1px solid  lightgray;
+	    border-radius: 6px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	</style>
 </body> 
 </html>

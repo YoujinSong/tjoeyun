@@ -3,12 +3,20 @@
 <head>
 <meta charset="utf-8">
 <title>font</title> 
-<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&display=swap" rel="stylesheet">
-<style type="text/css"> 
-    
-</style> 
+<style>
+    *{
+        font-size: 20px;
+    }
+</style>
 </head> 
 <body>
+
+    <em>이탤릭체</em>
+    <style>
+        em {
+            font-style: normal;
+        }
+    </style>
 
     <!-- 말줄임  -->
     <ul class="lst_bbs_type1">
@@ -59,7 +67,21 @@
         <li>정형외과</li>
         <li>피부과</li>
     </ul>
-
+    <style>
+      h3 {
+          font-size: 2em;
+      }
+      p.bold {
+          font-size: 1.3em;
+      }
+      ul li {
+            font-size: 1.2em;
+        }
+      ul li span{
+          font-size: 1em;
+          /* em 단위는 부모 태그를 기준으로 상대값 */
+      }
+      </style>
     <!--  기타 폰트설정  -->
     <p class="font1">
         일회용 mask의 기본적인 기능으로는 <br>
@@ -72,20 +94,6 @@
         외부 유해물질로 부터의 효과적인 보호(MB가공) 등이 있다.
     </p>
 
-    <!--  웹폰트  -->
-   <hr>
-    <h2>웹폰트</h2>
-    <style>
-    .webfont {
-        font-family: 'Noto Sans KR', sans-serif;
-    }
-    .gt {
-        font-family: 'Nanum Gothic', sans-serif;
-    }
-    </style>
-    <p class="webfont">오늘의 날씨를 말씀드리겠습니다.</p>
-    <p class="gt">오늘의 날씨를 말씀드리겠습니다.</p>
-    
     <!--  폰트  -->
     <hr>
     <h2>폰트 패밀리</h2>
@@ -105,12 +113,32 @@
             font-size: 0.5em;
         }
     </style>
-    <p class="dotum">오늘의 날씨를 말씀드리겠습니다.</p>
+    <!--폰트 패밀리-->
+    <h2>폰트 패밀리</h2>
+    <p class="dotum">오늘의 날씨를 말씀드리겠습니다.오늘의 날씨를 말씀드리겠습니다.
+        오늘의 날씨를 말씀드리겠습니다.오늘의 날씨를 말씀드리겠습니다.오늘의 날씨를 말씀드리겠습니다.
+    </p>
     <p class="gt2">
         오늘의 날씨를 말씀드리겠습니다.
         <span>맑음/비옴</span>
     </p>
-
+<style>
+h2 { 
+    font-family: "나눔스퀘어";
+    font-weight: normal;
+}
+.dotum {
+ font-family: '돋움',dotum,sans-serif;
+ line-height: 1.5;
+font-size: 16px;
+color: orange;
+}
+.gt2 {
+    font-family: "궁서";
+    font-size: 14px;
+    font-weight: bold;
+}
+</style>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>

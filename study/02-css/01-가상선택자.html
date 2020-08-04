@@ -114,6 +114,44 @@
         }
     </style>
 
+<h2>가상선택자 -  순서</h2>
+
+<ul class="lst">
+    <li>Company</a></li>
+    <li>Product</a></li>
+    <li>Service</a></li>
+    <li>Companity</a></li>
+</ul>
+<style>
+    .lst li {
+        display: inline-block;
+    }
+    .lst li::after {
+        content: 'ㅣ' ;
+        color: black; 
+        margin: 0 6px  0 10px ;
+    }
+    .lst li:last-child:after {
+        display: none;
+    }
+    .lst {
+        list-style: none;
+    }
+    .lst li:first-child {
+       color: red;
+    }
+    .lst li:last-child {
+        color: blue;
+    }
+    .lst li:nth-child(2) {
+        color: green;
+    }
+    .lst li:nth-child(3) {
+        color: orange;
+    }
+
+</style>
+
     <br><br><br><br><br>
 </body>
 </html>
