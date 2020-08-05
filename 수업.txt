@@ -1,0 +1,182 @@
+github 푸쉬하는법
+
+git config --global user.name "YujinSong" 
+
+git config --global user.email "syj4298@naver.com"
+
+git clone https://github.com/eehd80/WDP-6.git
+
+git clone http://YoujinSong/tjoeyun.git
+
+
+푸쉬
+git init
+git add .
+git commit -m "어디어디 수정" 
+git remote add origin https://github.com/본인아이디/레포지토리이름.git
+git push -u origin master
+
+다룸사이트(다음 이미지 가이드)
+
+ctrl+R새로고침
+Alt+shift+↓ 바로가기창
+ul>li*5
+depth깊이(주메뉴)
+tr-행, scope
+접근성 사이트(널리,다룸,shippet)
+해빠에 테이블
+html:5 sumary 없음
+alt+shift- 복사하기(바로가기에서 단축키 볼수있음)
+
+
+XD플러그인 왼쪽하단 블럭 -플러그인-검색-lurem(이미지,글씨자동생성)
+글씨자동 ctrl+alt+L
+ui faces
+티스토리 툴에 xd플러그인 추천있음
+unsplash,web export, 사진추출 codeing
+ctrl+r 새로고침
+div- 영역구분
+wrap (전체 감싸기) 안그럼 퍼짐 
+똑같은 가로값 container본문내용 div로 감싸기
+ul>li>a{depth1-m}
+# 꼭 넣기 접근성 위배
+alt+shift 커서 누르기
+섹션에는 타이틀 있어야함
+*모든태그
+padding 공간들어감
+유투브 앞에 ss
+css flexrox 
+nav > ul{}
+     >은 자식임
+Id개발자 (경기도 이름) 다달라야함 wrap.컨테이너 (큰거)일떄씀
+class같아도됨 중복사용 가능 디자이너들 사용
+id.class 같이사용
+1920안쪽폭 1400정도 무조건웹 12개
+페이지 오버레이 
+>자식으로 가는것 
+border 테두리, solid실선
+.class 네이밍
+웹디자인 기능사 필기-문제를 외우면 됨 기출문제 위주로 보기
+list-is+.(점공통디자인)
+ul.lst(ul 태그이름 써도됨 왠만하면 태그이름 쓰지않기)
+: before 
+한칸띄고 *
+line awesome(코딩아이콘홈페이지)
+:: 앞에 무조건 붙이기 
+글씨 지워질때 insert 키
+css-form ( w3school 공부)
+
+포폴-more 버튼 보고 따라하기, 그리드 맞추기,테두리 복사하고 사진 맞추어서 자르기,이미지 안에 테두리 넣기 요즘추세
+boder1 opa-20정도 384 517 크기 
+
+class 무조건 안써도됨
+RGB는 투명배경색 선색쓸때 씀
+배너 운영성 이미지(배너같은) - css로 안하고 태그로 넣기
+F12 누르고 shift 10단위 Alt 0.1 단위
+text-indent -9999px(제일 앞으로 보내기)
+포토샵 F8속성창 
+x,y축 오른쪽 구간 무조건 - 임 무조건 - 붙이기(이미지 포지션값 낼때)
+
+투명,퀄리티 png24
+배너 jpeg
+
+백그라운드 사이즈
+스타일에 태그를 보거나
+줄번호로 보기(ctrl.g)줄열로 열기
+
+100%는 상대값임(엄마만큼 채우기
+
+background-attachment 
+ccs3스쿨에 css튜토리얼 백그라운드에 
+
+이미지-상단 모어에 부트스트립3 테마- 컴퍼니
+
+속성과 속성사이 한칸씩 띄기
+
+background Shorthand 이미지 넣을때
+url(./images/map.jpg) no-repeat 0 0; 세트 무조건
+
+한칸은 꼭 띄우기!
+
+블럭요소는 기본이 가로 100%
+%는 엄마기준으로 가로값 그럼 자식이 100%로 여도 작아짐
+
+다룸에 패딩
+-------------------
+마진 0 , 패딩 0으로 넣기
+자동으로 들어가기 때문에
+
+여백설정 값 시계방향으로 입력순 위.아래.왼.오
+
+ .margin.margin1 { } 띄어쓰기 안하고 붙여쓰면 형제로 놓여있는 얘들
+
+magin 10px 자동으로 4방향
+마진은 서로 간격을 먹는다.
+
+a는 무조건 블럭 그래야 버튼으로 만들수 있음
+
+
+inline block 스페이스는 떨어지게끔 함
+
+p태그는 가로값 자동 100%
+
+자동완성-ctrl 스페이스
+
+라인하이트:행간
+
+요즘 14나 16px
+
+구글폰트사용 - 선택- 굵기선택후-다운로드 또는 링크사용
+오른쪽 앰비드에 링크 나와있음
+
+em 상대값
+폰트는 엄마를 기준으로 나의 사이즈를 구함
+
+티스토리 블로그에 css부분 중요한것 학습하도록 해놓음
+alt+tab 탭이동
+
+http://pxtoem.com/ em계산기
+코딩에서 em안적으면 기본으로 16px
+ctrl+t새탭
+
+rem은 맨 위의 기준폰트로 함
+
+w3school 에서 css 텍스트 보기
+정렬보기
+
+세로정렬대신 display flex 로 함 요새
+
+a {
+  text-decoration: none;
+}
+
+자간 줄이기가 가독성 높음
+
+티스토리 css에 말줄임 설명되어있음
+
+선택부분만 주석처리는 블럭주석 설정 shift+Alt+A
+
+
+04번 다 중요함 (레이아웃)
+기본리셋 외우기!
+폰트사이트는 내가 정할수있음 회사는 물어보기
+없다면 16px 
+색은 000또는 333 303030
+텍스트데코레이션은 밑줄 
+마패와 포인트카드를 들고 ... 그거대로 외우기
+
+
+vendor.slick....
+
+ position: absolute;top: 0;left: 0; 세트
+position: absolute;bottom: 0;right: 0;    
+
+F11전체화면 분할?
+
+
+position: relative; 엄마지정
+
+어섬웨어 3	번째 링크로 하기
+rgba(255,255,255,.5)하얀색
+블랙은 (0,0,0,0)
+btn 띄어쓰기
